@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Paths to the CSV files
-lstm_file = '/Users/lokeshharinath/Downloads/stocks prediction/lstm_stock_predictions_with_metrics.csv'  # Replace with the path to your LSTM CSV file
-transformer_file = '/Users/lokeshharinath/Downloads/stocks prediction/transformer_stocks_forecast_results_integers.csv'  # Replace with the path to your Transformer CSV file
+lstm_file = '/Users/saivineethmandava/Downloads/stocks prediction/lstm_stock_predictions_with_metrics.csv'  # Replace with the path to your LSTM CSV file
+transformer_file = '/Users/saivineethmandava/Downloads/stocks prediction/transformer_stocks_forecast_results_integers.csv'  # Replace with the path to your Transformer CSV file
 
 # Load the CSV files
 lstm_data = pd.read_csv(lstm_file)
